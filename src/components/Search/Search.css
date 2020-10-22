@@ -1,0 +1,78 @@
+.search {
+    display: none
+}
+
+@media only screen and (min-width: 1000px) {
+  
+    .search {      
+        display: flex;
+        flex: 1;
+        align-items: center;
+        max-width: fit-content;
+        padding: 6px;
+        height: 60px;
+        border-radius: 50px;
+        background: white;
+        box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.15), 0px 3px 8px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .search__form {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+    }
+  
+    .search__form > label {
+        display: grid;
+        grid-row: 1fr 1fr;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: Circular;
+        border-radius: 90px;
+        /*border: 1px solid black; */
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .search__form > label:first-of-type {
+        width: 210px;
+    }
+    
+    .search__form > label {
+        width: 170px;
+    }
+    .search__form > label > input {    
+        font-size: 14px;
+        border: none;
+        outline-width: 0;
+        margin-left: -2px;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: transparent;
+    }  
+
+    .search__form > label:hover {
+        background: #F5F5F5;
+    }
+    
+    .search__icon  {
+       height: 20px;
+       background-color: #FF385C;
+       color: white;
+       padding: 12px;
+       border-radius: 50px;
+    }
+
+    .search__form > Button {
+        margin-left: -65px;
+    }
+
+    .search__form > Button:hover {
+        background: transparent
+    }
+
+  
+
+
+
+  
+  
+  }

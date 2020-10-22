@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 700px) {
+  .home__cards {
+    display: flex;
+    flex-wrap: wrap;    
+    padding-left: 8vh;
+    padding-right: 8vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+.home__cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 12vh;
+    padding-right: 12vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+  }
+}

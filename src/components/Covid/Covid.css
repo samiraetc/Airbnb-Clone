@@ -1,0 +1,12 @@
+.covid {
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.covid > a  {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
